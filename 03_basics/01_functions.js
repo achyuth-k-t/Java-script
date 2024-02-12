@@ -61,3 +61,16 @@ function print(){
     return arr[1]
   }
   console.log(secEle([100,345,654,74,12]));
+
+  //Two ways a function can be declared
+
+//General type
+function addnumbers(num1,num2){
+  return num1+num2
+}
+
+//Expression 
+//here it is stored in a variable
+const addnum=function(num1,num2){
+  return num1+num2
+}
